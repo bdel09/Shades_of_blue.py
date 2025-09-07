@@ -10,4 +10,4 @@ tess.backwards(100)
 for i in range(0,255,10):
     tess.forward(10)
     tess.pensize(i)
-    tess.color(0,i,0)
+    tess.color(0,0,i)
