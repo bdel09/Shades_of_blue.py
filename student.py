@@ -1,7 +1,7 @@
 #Name: Benjamin Del Barrio
 #Email: benjamin.delbarrio31@myhunter.cuny.edu
 
-import turtl
+import turtle
 tess = turtle.Turtle()
 tess.shape()
 tess.backwards(100)
