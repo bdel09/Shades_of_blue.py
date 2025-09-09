@@ -3,9 +3,7 @@
 
 import turtle
 tess = turtle.Turtle()
-tess.colormode(255)
 tess.shape()
-tess.backwards(100)
 
 for i in range(0,260,10):
     tess.forward(10)
