@@ -5,7 +5,7 @@ import turtle
 tess = turtle.Turtle()
 tess.shape()
 
-for i in range(0,260,10):
+for i in range(0,255,10):
     tess.forward(10)
     tess.pensize(i)
-    tess.color(0,0,i)
+    tess.color(i//3,i//3,i)
