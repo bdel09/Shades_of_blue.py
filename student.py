@@ -3,10 +3,11 @@
 
 import turtle
 tess = turtle.Turtle()
+tess.colormode(255)
 tess.shape()
 tess.backwards(100)
 
-for i in range(0,255,10):
+for i in range(0,260,10):
     tess.forward(10)
     tess.pensize(i)
-    tess.color(0,i//2,i/255)
+    tess.color(0,0,i)
