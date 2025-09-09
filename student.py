@@ -1,13 +1,12 @@
 #Name: Benjamin Del Barrio
 #Email: benjamin.delbarrio31@myhunter.cuny.edu
 
-import turtle
-turtle.colormode(255)
+import turtl
 tess = turtle.Turtle()
 tess.shape()
 tess.backwards(100)
 
-for i in range(0,260,10):
+for i in range(0,255,10):
     tess.forward(10)
     tess.pensize(i)
-    tess.color(0,i,0)
+    tess.color(0,0,i/255)
