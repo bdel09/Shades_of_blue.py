@@ -1,11 +1,19 @@
 #Name: Benjamin Del Barrio
 #Email: benjamin.delbarrio31@myhunter.cuny.edu
 
-import turtle
-tess = turtle.Turtle()
-tess.shape()
+import turtle		        # Import the turtle drawing package
 
-for i in range(0,255,10):
-    tess.forward(10)
-    tess.pensize(i)
-    tess.color(i//3,i//3,i)
+turtle.colormode(255)		
+tess = turtle.Turtle()		# Create a turtle
+tess.shape("turtle")		# Make it turtle shaped
+tess.backward(100)              # Move her backwards, to give more space to draw
+
+# For 0,10,20,...,250
+for i in range(0, 255, 10):
+    tess.forward(10)		# Move forward
+    tess.pensize(i)		# Set the drawing size to be i (larger each time)
+    tess.color(i//2, i//2, i)	# Set the blue channel to be i (brighter each time)
+
+turtle.done()
+
+
